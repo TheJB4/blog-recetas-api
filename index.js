@@ -13,7 +13,7 @@ import './src/database/database.js'
 let app = express()
 
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin:'https://blog-recetas-lake.vercel.app',
     credentials: true
 }))
 app.use(morgan('dev'))
